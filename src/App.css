@@ -30,17 +30,17 @@ hr {
 	width: 100%;
 	background-color: var(--primary-color);
 	padding: 1rem;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	text-decoration: bold;
 }
 .nav-icon {
 	display: inline;
-	margin: 1rem 0rem;
+	margin: 1rem 0.1rem;
 }
 .navigation-header {
 	display: inline;
 
-	margin: 1rem 0rem;
+	margin: 1rem 0.1rem;
 }
 .genre-list {
 	display: flex;
@@ -53,6 +53,7 @@ hr {
 .genre-button {
 	flex: 1;
 	width: 8vh;
+  max-width: 30%;
 	font-family: "Titillium Web", sans-serif;
 	font-size: 1.6rem;
 	padding: 1rem;
