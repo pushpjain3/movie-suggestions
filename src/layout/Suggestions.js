@@ -8,7 +8,7 @@ const Suggestions = ({ genreData,genre }) => {
 			{genreData.map((movie) => (
 				<div>
 					<hr />
-					<SuggestionItems movie={movie} />
+					<SuggestionItems key={movie.name} movie={movie} />
 				</div>
 			))}
 		</div>

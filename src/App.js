@@ -18,14 +18,14 @@ const movieData = {
 		{
 			name: "The Nun(2018)",
 			movie_description:
-				"When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate. Together, they uncover the order's unholy secret. Risking not only their lives but their faith and their very souls, they confront a malevolent force in the form of a demonic nun.",
+				"When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate. They uncover the order's unholy secret. Risking not only their lives but their faith and their very souls, they confront a demonic nun.",
 			movie_rating: "5.3",
 			image: TheNun,
 		},
 		{
 			name: "Sinister(2012)",
 			movie_description:
-				"True-crime writer Ellison Oswald (Ethan Hawke) is in a slump; he hasn't had a best seller in more than 10 years and is becoming increasingly desperate for a hit. So, when he discovers the existence of a snuff film showing the deaths of a family, he vows to solve the mystery. He moves his own family into the victims' home and gets to work. However, when old film footage and other clues hint at the presence of a supernatural force, Ellison learns that living in the house may be fatal.",
+				"Ellison Oswald is in a slump; he hasn't had a best seller in more than 10 years and is becoming increasingly desperate for a hit. So, when he discovers the existence of a snuff film showing the deaths of a family, he vows to solve the mystery. He moves his own family into the victims' home and gets to work. However, Ellison learns that living in the house may be fatal.",
 			movie_rating: "6.8",
 			image: sinister,
 		},

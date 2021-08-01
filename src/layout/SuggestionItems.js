@@ -7,7 +7,7 @@ const SuggestionItems = ({movie:{name,image,movie_rating,movie_description}})=> 
 					<img src={image} alt='The Cover...' />
 				</div>
 				<div className='card-info'>
-					<h2 className="card-info-header">{name}</h2>
+					<h2 className='card-info-header'>{name}</h2>
 					<p>{movie_description}</p>
 					<div className='rating'>
 						<h3>Rating</h3>

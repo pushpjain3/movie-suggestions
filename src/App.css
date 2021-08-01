@@ -31,8 +31,10 @@ hr {
 	background-color: var(--primary-color);
 	padding: 1rem;
 	font-size: 1.5rem;
+	
 	text-decoration: bold;
 }
+
 .nav-icon {
 	display: inline;
 	margin: 1rem 0.1rem;
@@ -44,6 +46,9 @@ hr {
 }
 .genre-list {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
 	padding: 2rem;
 	margin: auto;
 	background-color: var(--off-white);
@@ -53,7 +58,8 @@ hr {
 .genre-button {
 	flex: 1;
 	width: 8vh;
-  max-width: 30%;
+	min-width: 210px;
+	max-width: 440px;
 	font-family: "Titillium Web", sans-serif;
 	font-size: 1.6rem;
 	padding: 1rem;
@@ -90,6 +96,7 @@ hr {
 	width: 60%;
 	background-color: var(--secondary-dark);
 	display: flex;
+	flex-wrap: wrap;
 	margin: 1.4rem auto;
 	border: 1px solid black;
 	color: var(--primary-color);
@@ -98,6 +105,7 @@ hr {
 	transition: 0.3s;
 	cursor: pointer;
 	border-radius: 0.8rem;
+
 }
 .suggestion-card:hover {
 	box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
@@ -154,9 +162,8 @@ hr {
 }
 .footer {
 	background-color: var(--secondary-color);
-	height: 6vh;
-	padding: 1rem;
-	padding-bottom: 1.9rem;
+	height: auto;
+	padding: 0.8rem;
   font-size: 1.1rem;
 	text-align: center;
 }
@@ -168,4 +175,32 @@ hr {
 }
 .footer-link:hover {
 	color: var(--secondary-light);
+}
+@media screen and (max-width: 800px) {
+	.navigation {
+	text-align: center;
+	width: 100%;
+	background-color: var(--primary-color);
+	padding: 1rem;
+	font-size: 1.3rem;
+	
+	text-decoration: bold;
+}
+
+.genre-button{
+	padding: 0.6rem;
+	font-size: 1.4rem;
+	width: 6vh;
+	height: 19vh;
+}
+.suggestion-card{
+	width: 90%;
+	display: block;
+}
+.card-info{
+	font-size: 1rem;
+}
+.footer{
+	height: auto;
+}
 }
